@@ -31,11 +31,8 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 <br/><br/>
 
 ## Usage
-### /giveaway start
-
-## Example
-```txt
-/giveaway start title:$5 Nitro Classic description:$5 Nitro Classic giveaway... duration:6h winners:1
+```
+/giveaway start
 ```
 
 ## Example
