@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Server Manager",
+  title: "BobCat",
   tagline:
     "Imagine a simple customizable multipurpose bot",
   url: "https://servermanagerbot.ml",
@@ -16,15 +16,15 @@ const config = {
   favicon: "img/favicon.ico",
   trailingSlash: false,
   deploymentBranch:"main",
-  organizationName: "Server-Manager-Dev-Team", // Usually your GitHub org/user name.
-  projectName: "website", // Usually your repo name.
+  organizationName: "tbtech-202", // Usually your GitHub org/user name.
+  projectName: "BobCat-Docs", // Usually your repo name.
   plugins: ["docusaurus-plugin-sass"],
   presets: [ 
     [
       "classic",
       {
         docs: {
-          editUrl: "https://github.com/Server-Manager-Dev-Team/website/tree/main",
+          editUrl: "https://github.com/tbtech-202/BobCat-Docs/tree/main",
           routeBasePath: "/",
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
@@ -52,13 +52,13 @@ const config = {
       disableSwitch: true,
     },
     navbar: {
-      title: "Server Manager",
+      title: "BobCat Inc",
       hideOnScroll: true,
       items: [
         {
-          href: 'https://discord.com/api/oauth2/authorize?client_id=999132132754600016&permissions=1497736146166&scope=bot%20applications.commands&redirect_uri=https://servermanagerbot.ml/docs&response_type=code',
+          href: 'http://invite.bobcatbot.xyz/',
           position: 'right',
-          label: 'Invite',
+          label: 'Invite Me',
         },
         {
           href: 'https://discord.gg/6bCKvP24kb',
@@ -76,7 +76,7 @@ const config = {
       style: "dark",
       links: [
         {
-          title: "Server Manager",
+          title: "BobCat Bot",
           items: [
             {
               label: "Support",
