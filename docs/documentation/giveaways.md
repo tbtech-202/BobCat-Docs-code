@@ -37,9 +37,19 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 /giveaway start title:$5 Nitro Classic description:$5 Nitro Classic giveaway... duration:6h winners:1
 ```
 
+
+
+<br/>
+
+## Example
 <DiscordComponent>
     <DiscordMessage author="Docs Bot" avatar="blue" bot>
-        <DiscordEmbed
+       <div slot="interactions">
+         <DiscordInteraction profile="bob" command>
+           giveaway create
+         </DiscordInteraction>
+       </div>
+       <DiscordEmbed
         embedTitle="$5 Nitro Classic"
         authorIcon="/img/logo.png"
         authorName="Server Manager Support"
@@ -57,11 +67,7 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
             </DiscordEmbedFields>
             <span slot="footer">1 winner</span>
         </DiscordEmbed>
-      <div slot="interactions">
-        <DiscordInteraction profile="bob" command>
-          giveaway
-        </DiscordInteraction>
-      </div>
+      
       <div slot="actions">
         <DiscordButtons>
           <DiscordButton type="primary" emoji="🎉"></DiscordButton>
@@ -70,10 +76,3 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
       </div>
     </DiscordMessage>
 </DiscordComponent>
-
-<br/>
-
-## FAQ
-  
-### Why can't I remove giveaway entries? {#removing-giveaway-entries}
-The reason you can't do this is supported by many ways how a giveaway can be rigged if a manage giveaway entries feature is added. We believe in fair giveaways and no giveaway entries are removed. We understand that some giveaway hosts may want to enforce a custom requirement manually. However, this is why the `/giveaway reroll` command exists and allows you to re-roll the giveaway an unlimited amount of times. Thus, removing the audacity to manage giveaway entries. In the `/giveaway view` command, we may (sooner than later) allow giveaway entries to be viewed but not managed.
