@@ -11,7 +11,7 @@ export default function Home(): JSX.Element {
       description="Server Manager's website"
     >
       <Head>
-      <script async src="https://arc.io/widget.min.js#hD9CJ6sv%22%3E</script>
+      <script async src="https://arc.io/widget.min.js#hD9CJ6sv%22%3E"></script>
       </Head>
       <PYCHero
         title="BobCat Bot"
