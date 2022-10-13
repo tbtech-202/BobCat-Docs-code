@@ -21,6 +21,7 @@ const config = {
   plugins: ["docusaurus-plugin-sass"],
   presets: [ 
     [
+      "classic",
       {
         docs: {
           routeBasePath: "/",
