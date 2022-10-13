@@ -28,21 +28,15 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 | <code>/giveaway reroll <giveaway_id> &lt;winners&gt; </code>   | Reroll a giveaway        |     False        |
 | <code>/giveaway delete <giveaway_id></code>   | Delete a giveaway from the database        |     False        |
 | <code>/giveaway view [giveaway_id]<a></a>[hidden]</code>   | View a giveaway or all giveaways        |     False        |
+<br/><br/>
 
-
-<br/>
 ## Usage
 # /giveaway start
 
 ## Example
-
 ```txt
 /giveaway start title:$5 Nitro Classic description:$5 Nitro Classic giveaway... duration:6h winners:1
 ```
-
-
-
-<br/>
 
 ## Example
 <DiscordComponent>
