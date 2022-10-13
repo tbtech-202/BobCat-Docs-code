@@ -1,6 +1,6 @@
 ---
 title: Kick
-description: Kick command
+description: Kicks a member from the server
 ---
 
 =====
