@@ -9,8 +9,8 @@ const config = {
   title: "BobCat",
   tagline:
     "Imagine a simple customizable multipurpose bot",
-  url: "https://servermanagerbot.ml",
-  baseUrl: "/",
+  url: "https://www.bobcatbot.xyz",
+  baseUrl: "/overview",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
