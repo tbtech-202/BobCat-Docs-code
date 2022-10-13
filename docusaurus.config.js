@@ -9,7 +9,7 @@ const config = {
   title: "BobCat",
   tagline:
     "Imagine a simple customizable multipurpose bot",
-  url: "https://www.bobcatbot.xyz",
+  url: "",
   baseUrl: "/overview",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
