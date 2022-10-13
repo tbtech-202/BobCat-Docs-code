@@ -11,9 +11,12 @@ At Server Manager Development, we strive to bring new features to Server Manager
 <Button 
   icon="🎮"
   label="General"
+  onClick={ document.location.href='/documentation/configurations'} }
 >
   <span>General</span>
 </Button>
+
+<br/>
 
 <div className="box" style={{'margin-top': '0'}}>
   • <a href="/documentation/configurations" className="discord-link">Confiuration Documentation</a>
