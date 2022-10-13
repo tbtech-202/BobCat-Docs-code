@@ -35,9 +35,9 @@ const config = {
     ],
   ],
   themeConfig: {
-    announcementBar: {
-      content: `🎉 <strong>BobCat</strong> has been officially verified!`,
-    },
+//     announcementBar: {
+//       content: `🎉 <strong>BobCat</strong> has been officially verified!`,
+//     },
     docs: {
       sidebar: {
         autoCollapseCategories: true,
