@@ -19,7 +19,6 @@ export default function Home(): JSX.Element {
         hasLogo={false}
       />
       <main className="content-wrap--home-page">
-        a discord bot
       </main>
     </DefaultLayout>
   );
