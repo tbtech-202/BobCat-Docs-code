@@ -6,21 +6,21 @@ description: Deletes a number of messages in a channel
 -
 -
 
-### **Description**
+###**Description**
 Deletes a number of messages in a channel
 
-### Usage
+## Usage
 ```
 b!clear [amount]
 b!purge [amount]
 ```
 
-### Permissions
+## Permissions
 ```
 `Manage Messages` permissions
 ```
 
-### Arguments
+## Arguments
 ```
 {amount} - The amount of messages you want to delete
 ```
