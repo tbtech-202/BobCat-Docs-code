@@ -11,7 +11,7 @@ At Server Manager Development, we strive to bring new features to Server Manager
 <Button 
   icon="🎮"
   label="General"
-  onClick={ document.location.href='/documentation/configurations'} }
+  onClick={ () => {document.location.href='/documentation/configurations'} }
 >
   <span>General</span>
 </Button>
