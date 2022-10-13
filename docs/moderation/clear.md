@@ -3,10 +3,19 @@ title: Clear
 description: Deletes a number of messages in a channel
 ---
 
--
--
+import Button from '../../src/components/Button';
+import {
+  DiscordInteraction,
+  DiscordMessage,
+  DiscordMessages,
+  DiscordEmbed,
+  DiscordEmbedField,
+  DiscordEmbedFields,
+} from "discord-message-components/packages/react";
+import "discord-message-components/packages/react/dist/style.css";
 
-###**Description**
+
+## Description
 Deletes a number of messages in a channel
 
 ## Usage
