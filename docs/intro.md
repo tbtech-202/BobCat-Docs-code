@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: BobCat Commands
 description: Thanks for choosing Server Manager for your server management needs!
 sidebar_position: 1
 ---
