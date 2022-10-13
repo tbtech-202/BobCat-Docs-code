@@ -15,11 +15,11 @@ export default function Home(): JSX.Element {
       </Head>
       <PYCHero
         title="BobCat Bot"
-        hasLogo={true}
+        subtitle=" A simple customizable multipurpose Discord bot"
+        hasLogo={false}
       />
       <main className="content-wrap--home-page">
-        discord bot that can do anything
+        a discord bot
       </main>
     </DefaultLayout>
   );
-}
