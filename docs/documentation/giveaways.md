@@ -31,7 +31,7 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 <br/><br/>
 
 ## Usage
-# /giveaway start
+### /giveaway start
 
 ## Example
 ```txt
