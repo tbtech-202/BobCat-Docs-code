@@ -43,7 +43,7 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 
 ## Example
 <DiscordComponent>
-    <DiscordMessage author="Docs Bot" avatar="blue" bot>
+    <DiscordMessage author="BobCat" avatar="blue" bot>
        <div slot="interactions">
          <DiscordInteraction profile="bob" command>
            giveaway create
