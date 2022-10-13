@@ -18,7 +18,7 @@ export default function Home(): JSX.Element {
         hasLogo={true}
       />
       <main className="content-wrap--home-page">
-        Imagine a bot that can take away all the stress of setting up a simple moderation, giveaways, suggestions, and poll system, so you can relax and have the bot do it for you. Server Manager is here to help! Let Server Manager do the hard wok for you. Server Manager features many widely-used systems such as <strong>moderation</strong>, <strong>giveaways</strong>, <strong>suggestions</strong>, <strong>polls</strong>, <strong>utility</strong>, and <u>much more</u>! <a href="/intro">Learn more...</a>
+        discord bot that can do anything
       </main>
     </DefaultLayout>
   );
