@@ -9,7 +9,7 @@ import {
   DiscordMessage,
   DiscordMessages,
   DiscordMention,
-  DiscordBold,
+  DiscordMarkdown,
   DiscordEmbed,
   DiscordEmbedField,
   DiscordEmbedFields,
@@ -49,7 +49,9 @@ b!kick [member] {reason}
         authorName="User has been kicked"
     >
       <DiscordEmbedDescription slot="description">
-          <DiscordBold>Reason: reasons</DiscordBold>
+          <DiscordMarkdown>
+						**Reason:** reasons
+          </DiscordMarkdown>
       </DiscordEmbedDescription>
     </DiscordEmbed>
   </DiscordMessage>
