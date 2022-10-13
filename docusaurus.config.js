@@ -24,7 +24,6 @@ const config = {
       "classic",
       {
         docs: {
-          editUrl: "https://github.com/tbtech-202/BobCat-Docs/tree/main",
           routeBasePath: "/",
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
@@ -36,9 +35,9 @@ const config = {
     ],
   ],
   themeConfig: {
-    // announcementBar: {
-    //   content: `🎉 <strong>Server Manager</strong> has been officially verified! <a href="/blog/verification-announcement">Check out our blog</a>!`,
-    //   },
+    announcementBar: {
+      content: `🎉 <strong>BobCat</strong> has been officially verified!`,
+    },
     docs: {
       sidebar: {
         autoCollapseCategories: true,
