@@ -71,45 +71,45 @@ const config = {
         },
       ],
     },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "BobCat Bot",
-          items: [
-            {
-              label: "Support",
-              href: "https://discord.gg/6bCKvP24kb"
-            },
-            {
-              label: "Terms of Service",
-              to: "/terms"
-            },
-            {
-              label: "Privacy Policy",
-              to: "/privacy"
-            },
-          ]
-        },
-      {
-        title: "Other",
-        items: [
-          {
-            label: "GitHub",
-            href: "https://github.com/Server-Manager-Dev-Team/website"
-          },
-          {
-            label: "Blog",
-            to: "/blog"
-          },
-          {
-            label: "Roadmap",
-            to: "/roadmap"
-          }
-        ]
-      }
-      ]
-    },
+//     footer: {
+//       style: "dark",
+//       links: [
+//         {
+//           title: "BobCat Bot",
+//           items: [
+//             {
+//               label: "Support",
+//               href: "https://discord.gg/6bCKvP24kb"
+//             },
+//             {
+//               label: "Terms of Service",
+//               to: "/terms"
+//             },
+//             {
+//               label: "Privacy Policy",
+//               to: "/privacy"
+//             },
+//           ]
+//         },
+//       {
+//         title: "Other",
+//         items: [
+//           {
+//             label: "GitHub",
+//             href: "https://github.com/Server-Manager-Dev-Team/website"
+//           },
+//           {
+//             label: "Blog",
+//             to: "/blog"
+//           },
+//           {
+//             label: "Roadmap",
+//             to: "/roadmap"
+//           }
+//         ]
+//       }
+//       ]
+//     },
     prism: {
       defaultLanguage: "python",
       theme: lightCodeTheme,
