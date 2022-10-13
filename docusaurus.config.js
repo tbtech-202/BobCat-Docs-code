@@ -21,7 +21,6 @@ const config = {
   plugins: ["docusaurus-plugin-sass"],
   presets: [ 
     [
-      "classic",
       {
         docs: {
           routeBasePath: "/",
@@ -40,12 +39,12 @@ const config = {
 //     },
     docs: {
       sidebar: {
-        autoCollapseCategories: true,
+        autoCollapseCategories: false,
       },
     },
     blog: {
       showReadingTime: true,
-      },
+    },
     colorMode: {
       defaultMode: "dark",
       disableSwitch: true,
