@@ -33,3 +33,13 @@ b!purge [amount]
 ```
 {amount} - The amount of messages you want to delete
 ```
+
+## Example
+<DiscordMessages>
+  <DiscordMessage author="User" avatar="blue">
+    b!clear 5
+  </DiscordMessage>
+  <DiscordMessage author="BobCat" avatar="blue">
+    Cleared 5 messages
+  </DiscordMessage>
+</DiscordMessages>
