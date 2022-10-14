@@ -38,14 +38,14 @@ b!unban [member]
 ## Example
 <DiscordMessages>
   <DiscordMessage author="User" avatar="blue">
-    b!kick <DiscordMention type="user">User</DiscordMention>
+    b!unban <DiscordMention type="user">User</DiscordMention>
   </DiscordMessage>
   <DiscordMessage author="BobCat" avatar="blue">
     <DiscordEmbed
         slot="embeds"
         color="#5865f2"
         authorImage="blue"
-        authorName="User has been Unbanned"
+        authorName="User#0001 has been Unbanned"
     >
       <DiscordEmbedDescription slot="description">
       </DiscordEmbedDescription>
