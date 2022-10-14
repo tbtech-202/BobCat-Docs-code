@@ -22,7 +22,7 @@ Unbans a member from the server
 
 ## Usage
 ```
-b!ban [member]
+b!unban [member]
 ```
 
 ## Permissions
@@ -38,7 +38,7 @@ b!ban [member]
 ## Example
 <DiscordMessages>
   <DiscordMessage author="User" avatar="blue">
-    b!kick <DiscordMention type="user">User</DiscordMention> reasons
+    b!kick <DiscordMention type="user">User</DiscordMention>
   </DiscordMessage>
   <DiscordMessage author="BobCat" avatar="blue">
     <DiscordEmbed
@@ -48,9 +48,6 @@ b!ban [member]
         authorName="User has been Unbanned"
     >
       <DiscordEmbedDescription slot="description">
-          <DiscordMarkdown>
-						**Reason:** reasons
-          </DiscordMarkdown>
       </DiscordEmbedDescription>
     </DiscordEmbed>
   </DiscordMessage>
