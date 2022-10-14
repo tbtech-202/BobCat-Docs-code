@@ -18,7 +18,7 @@ import "discord-message-components/packages/react/dist/style.css";
 
 
 ## Description
- Kicks a member from the server
+Bans a member from the server
 
 ## Usage
 ```
@@ -40,18 +40,18 @@ b!ban [member] {reason} {days}
 ## Example
 <DiscordMessages>
   <DiscordMessage author="User" avatar="blue">
-    b!kick <DiscordMention type="user">User</DiscordMention> reasons
+    b!ban <DiscordMention type="user">User</DiscordMention> reasons
   </DiscordMessage>
   <DiscordMessage author="BobCat" avatar="blue">
     <DiscordEmbed
-        slot="embeds"
-        color="#5865f2"
-        authorImage="blue"
-        authorName="User has been Banned"
+      slot="embeds"
+      color="#5865f2"
+      authorImage="blue"
+      authorName="User has been Banned"
     >
       <DiscordEmbedDescription slot="description">
           <DiscordMarkdown>
-						**Reason:** reasons
+	    **Reason:** reasons
           </DiscordMarkdown>
       </DiscordEmbedDescription>
     </DiscordEmbed>
