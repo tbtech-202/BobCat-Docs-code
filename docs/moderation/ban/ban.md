@@ -3,7 +3,7 @@ title: Ban
 description: Bans a member from the server
 ---
 
-import Button from '../../src/components/Button';
+import Button from '../../../src/components/Button';
 import {
   DiscordInteraction,
   DiscordMessage,
