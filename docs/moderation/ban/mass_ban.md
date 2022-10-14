@@ -22,7 +22,7 @@ Bans more the one member at a time from the server
 
 ## Usage
 ```
-b!ban [member]
+b!massban [members] {reason}
 ```
 
 ## Permissions
@@ -32,7 +32,8 @@ b!ban [member]
 
 ## Arguments
 ```
-[member] - A user mention or User ID.
+[members] - User IDs
+{reason} - Reason for the mass ban
 ```
 
 ## Example
