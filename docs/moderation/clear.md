@@ -19,18 +19,18 @@ import "discord-message-components/packages/react/dist/style.css";
 Deletes a number of messages in a channel
 
 ## Usage
-```
+```txt
 b!clear [amount]
 b!purge [amount]
 ```
 
 ## Permissions
-```
+```txt
 `Manage Messages` permissions
 ```
 
 ## Arguments
-```
+```txt
 {amount} - The amount of messages you want to delete
 ```
 
